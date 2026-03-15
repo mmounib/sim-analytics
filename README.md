@@ -36,7 +36,3 @@ src/
 └── data/
     └── mockData.js
 ```
-
-## License
-
-This project is open source.
