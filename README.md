@@ -17,6 +17,26 @@ npm run dev      # http://localhost:5173
 npm run build    # production build → dist/
 ```
 
+## Project Structure
+
+```
+src/
+├── App.jsx
+├── main.jsx
+├── index.css
+├── components/
+│   ├── Sidebar.jsx
+│   ├── StatCard.jsx
+│   ├── UsageChart.jsx
+│   ├── ActivityList.jsx
+│   ├── ActivityItem.jsx
+│   └── Dropdown.jsx
+├── hooks/
+│   └── useDashboardData.js
+└── data/
+    └── mockData.js
+```
+
 ## License
 
 This project is open source.
